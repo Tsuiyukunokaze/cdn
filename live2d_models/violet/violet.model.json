@@ -1,0 +1,38 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "Violet",
+	"model": "Violet.moc",
+	"textures": [
+		"Violet.1024/texture_00.png"
+	],
+    "layout":
+	{
+		"width":2.9564,
+		"center_x":-0.0967,
+		"center_y":-0.3463
+	},
+	"motions": {
+		"idle": [
+			{"file": "motions/idle01.mtn", "fade_in": 0, "fade_out": 0 },
+			{ "file": "motions/idle02.mtn", "fade_in": 0, "fade_out": 0 },
+			{ "file": "motions/idle03.mtn", "fade_in": 0, "fade_out": 0 },
+			{ "file": "motions/idle04.mtn", "fade_in": 0, "fade_out": 0 }
+		],
+		"tap_head": [
+			{"file": "motions/tap_face.mtn", "text": "", "fade_in": 0, "fade_out": 0 }
+		],
+		"tap_body": [
+			{ "file": "motions/start.mtn", "sound": "sound/start.mp3", "text": "", "fade_in": 0, "fade_out": 0 }
+		]
+	},
+	"hit_areas": [
+		{ "name": "head", "id": "D_REF.face" },
+		{ "name": "body", "id": "D_REF.body" }
+	],
+	"loop_params": [{
+		"id": "PARAM_HBPL",
+		"duration": 8000,
+		"type": 0,
+		"weight": 1.0
+	}]
+}
